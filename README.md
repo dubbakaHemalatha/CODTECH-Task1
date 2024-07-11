@@ -9,6 +9,8 @@
 
 ## Project Exploratory Python Programming on GradeCalculator
 ![Screenshot 2024-07-11 174730](https://github.com/dubbakaHemalatha/CODTECH-Task1/assets/145427469/36025016-5498-4afa-aa4a-b5a96bb610d6)
+![Screenshot 2024-07-11 193751](https://github.com/dubbakaHemalatha/CODTECH-Task1/assets/145427469/4c863fbd-7720-4239-9457-9ddb9d57b01d)
+
 
 
 ### Objective
