@@ -22,7 +22,7 @@
 The Objective of this project is to perform on Student Grades.The program allow the user to input marks for different subjects,calculate the total,average and dispaly the overall grade.
 
 ### Key Activities
--Data Visualization:Creating Visualization to understand data which is taken from the User.
+- **Data Visualization:** Creating Visualization to understand data(marks) which is taken from the User.
 
 
 ### Technologies Used
