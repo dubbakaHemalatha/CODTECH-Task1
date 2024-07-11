@@ -5,14 +5,14 @@ Domain:PYTHON PROGRAMMING
 Duration:July to August
 Mentor:N.SanthoshKumar
 
-##Overview of the project
+## Overview of the project
 
 ##Project Exploratory Python Programming on GradeCalculator
 
-###Objective
+### Objective
 The Objective of this project is to perform on Student Grades.The program allow the user to input marks for different subjects,calculate the total,average and dispaly the overall grade.
 
-###Key Activities
+### Key Activities
 -Data Visualization:Creating Visualization to understand data which is taken from the User.
 
 
