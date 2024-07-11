@@ -8,6 +8,8 @@
 ## Overview of the project
 
 ## Project Exploratory Python Programming on GradeCalculator
+![Screenshot 2024-07-11 174730](https://github.com/dubbakaHemalatha/CODTECH-Task1/assets/145427469/36025016-5498-4afa-aa4a-b5a96bb610d6)
+
 
 ### Objective
 The Objective of this project is to perform on Student Grades.The program allow the user to input marks for different subjects,calculate the total,average and dispaly the overall grade.
