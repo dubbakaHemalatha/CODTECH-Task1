@@ -1,9 +1,9 @@
-**Name:** D.Hema latha
+**Name:**  D.Hemalatha
 **Company:** CODTECH IT SOLUTIONS
 **ID:** CT08DS3688
 **Domain:** PYTHON PROGRAMMING
 **Duration:** July to August
-**Mentor:** N.Santhosh Kumar
+**Mentor:**  N.SanthoshKumar
 
 ## Overview of the project
 
