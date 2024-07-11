@@ -1,0 +1,65 @@
+from tkinter import *
+
+screen=Tk()
+screen.geometry("440x500")
+screen.title("Calculator")
+
+def calculate():
+    telugu_marks=int(telugu_entry.get())
+    english_marks=int(english_entry.get())
+    hindi_marks=int(hindi_entry.get())
+    maths_marks=int(maths_entry.get())
+    science_marks=int(science_entry.get())
+    social_marks=int(social_entry.get())
+
+    total = (telugu_marks+english_marks+hindi_marks+maths_marks+science_marks+social_marks)
+    average=int(total/6)
+
+    Label(screen,text=total,font="impack 15 bold").place(x="175",y="300")
+    Label(screen,text=average,font="impack 15 bold").place(x="175",y="330")
+    Label(screen,text="Total",font="impack 15 bold").place(x="30",y="300")
+    Label(screen,text="Average",font="impack 15 bold").place(x="30",y="330")
+    Label(screen,text="Grade",font="impack 15 bold").place(x="30",y="360")
+
+
+    if (average>40):
+        grade="PASS"
+        Label(screen,text=grade,font="imapck 15 bold",fg="green").place(x="175",y="360")    
+    else:
+        grade="FAIL"   
+        Label(screen,text=grade,font="imapck 15 bold",fg="red").place(x="175",y="360")    
+
+
+
+
+#Heading
+Label(screen,text="Grade Calculator",font="impack 20 bold",bg="blue",fg="white").pack(fill=X)
+
+#Subjects
+Label(screen,text="Telugu",font="23").place(x="30",y="70")
+Label(screen,text="English",font="23").place(x="30",y="105")
+Label(screen,text="Hindi",font="23").place(x="30",y="140")
+Label(screen,text="Maths",font="23").place(x="30",y="175")
+Label(screen,text="Science",font="23").place(x="30",y="210")
+Label(screen,text="Social",font="23").place(x="30",y="240")
+
+
+#Entry visit
+telugu_entry=Entry(screen,font="20",width=15,bd=2)
+telugu_entry.place(x="180",y="70")
+english_entry=Entry(screen,font="20",width=15,bd=2)
+english_entry.place(x="180",y="105")
+hindi_entry=Entry(screen,font="20",width=15,bd=2)
+hindi_entry.place(x="180",y="140")
+maths_entry=Entry(screen,font="20",width=15,bd=2)
+maths_entry.place(x="180",y="175")
+science_entry=Entry(screen,font="20",width=15,bd=2)
+science_entry.place(x="180",y="210")
+social_entry=Entry(screen,font="20",width=15,bd=2)
+social_entry.place(x="180",y="240")
+
+#Button
+Button(screen,text="Calculate",font="impack 18 bold",bg="light blue",command=calculate).place(x="80",y="410")
+Button(screen,text="Exit",font="impack 18 bold",bg="red",fg="white",width=8,command=lambda:exit()).place(x="240",y="410")
+
+screen.mainloop()
